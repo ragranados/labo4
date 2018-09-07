@@ -1,0 +1,108 @@
+:root {
+    box-sizing: border-box;
+}
+ hr {
+     height: 1px;
+     background: #f56a6a;
+    border: 2px none #f56a6a
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header > div > h1 {
+    font-family: sans-serif;
+    align-content: flex-start;
+}
+
+div > .iconos {
+    list-style: none;
+}
+
+.iconos li {
+    display: inline;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: #7f888f;
+}
+
+.gray {
+    height: 0.2px;
+     background: #7f888f;
+     
+}
+
+button {
+    background-color: white;
+    padding: 1em 10em;
+    border: 1px solid #f56a6a;
+    border-radius: 10px;
+    color: #f56a6a;
+}
+
+button:hover {
+    color: #ee0808;
+    border: 1px solid  #ee0808;
+}
+
+.texto {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.bottom div h2 {
+    margin-top: 1em;
+    border-bottom: 3px solid #f56a6a;
+    display: inline;
+    padding: 0 15px 10px 10px;
+}
+
+.bottomcontainer{
+    margin-top: 3em; 
+    display: grid;
+    grid-gap: 1.5em;
+    grid-template-columns: 50% 50%;
+}
+
+
+.bottomcontainer div {
+    display: flex;
+    grid-gap: 2em;
+}
+
+.bottomcontainer > div {
+    display: grid;
+    grid-template-columns: 10% 90%;
+    justify-content: space-between;
+}
+
+#imagen {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos {
+    align-items: center;
+    justify-content: center;
+    color: #f56a6a;
+}
+
+.bottomcontainer div .textos {
+    display: block;
+}
+
+span {
+    color: black;
+    font-weight: bold;
+}
